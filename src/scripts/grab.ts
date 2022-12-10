@@ -38,5 +38,5 @@ class Grab {
     return instance.get(`C:\Users\jesus\Documents\GitHub\aurelio`);
   }
 }
-//https://unpkg.com/@magicwenli/league-fan-assets/${langMap.get(lang)}/${assets}.json
+
 export default Grab;
