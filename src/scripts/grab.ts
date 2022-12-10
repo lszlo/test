@@ -25,6 +25,7 @@ type langType =  "english" | "chinese" | "spanish" ;
 let langMap = new Map([
   //["chinese", "zh_cn"],
   ["english", "default"]
+  ["spanish", "es_es"]
 ]);
 
 class Grab {
