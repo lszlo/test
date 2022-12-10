@@ -35,8 +35,8 @@ class Grab {
   }
 
   get(assets: assetsType, lang = this.lang) {
-    return instance.get(`https://unpkg.com/@magicwenli/league-fan-assets/${langMap.get(lang)}/${assets}.json`);
+    return instance.get(`C:\Users\jesus\Documents\GitHub\aurelio`);
   }
 }
-
+//https://unpkg.com/@magicwenli/league-fan-assets/${langMap.get(lang)}/${assets}.json
 export default Grab;
