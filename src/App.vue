@@ -38,7 +38,7 @@ import 'terminal.css';
           Css theme by
           <a href="https://terminalcss.xyz/" target="_blank">Terminal CSS</a>
           <span style="float:right;">
-            Project by magicwenli/<a href="https://github.com/league-fan/league-fan.github.io/" target="_blank">league-fan</a>
+            Project by test/<a href="lszlo" target="_blank">Aurelio</a>
           </span>
         </p>
         <router-link to="./license">License</router-link>
