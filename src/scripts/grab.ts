@@ -21,11 +21,10 @@ instance.interceptors.response.use(
 
 
 type assetsType = "loot" | "summoner-emotes" | "summoner-icon-sets" | "summoner-icons" | "ward-skin-sets" | "ward-skins";
-type langType =  "english" | "chinese" | "spanish" ;
+type langType =  "english" | "chinese" ;
 let langMap = new Map([
   //["chinese", "zh_cn"],
   ["english", "default"]
-  ["spanish", "es_ES"]
 ]);
 
 class Grab {
