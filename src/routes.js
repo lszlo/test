@@ -26,7 +26,7 @@ export const routes = [
   {
     path: baseUrl+'/summoner-skins',
     name: 'skins',
-    component: NotFound,
+    component: () => import('./views/Skins.vue'),
     meta: { title: 'Summoner Skins' }
   },
   { path: '/:path(.*)', component: NotFound },
